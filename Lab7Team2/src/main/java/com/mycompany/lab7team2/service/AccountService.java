@@ -2,6 +2,7 @@
 package com.mycompany.lab7team2.service;
 
 import com.mycompany.lab7team2.Model.User;
+import com.mycompany.lab7team2.Model.UserList;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
@@ -17,6 +18,8 @@ public class AccountService {
     @Path("new")
     @Consumes(MediaType.APPLICATION_JSON)
     public Response createNewUserAccount(User user) {
+        UserList userList = new UserList();
+        userList.addUser(user);
         return Response.status(Response.Status.CREATED).build();
     }
     

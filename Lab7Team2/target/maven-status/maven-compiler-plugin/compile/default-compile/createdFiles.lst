@@ -1,4 +1,5 @@
 com/mycompany/lab7team2/resources/JavaEE8Resource.class
 com/mycompany/lab7team2/Model/User.class
 com/mycompany/lab7team2/JAXRSConfiguration.class
+com/mycompany/lab7team2/Model/UserList.class
 com/mycompany/lab7team2/service/AccountService.class

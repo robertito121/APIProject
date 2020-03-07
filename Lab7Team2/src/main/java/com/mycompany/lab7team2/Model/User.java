@@ -5,6 +5,7 @@ public class User {
     
     private String firstName;
     private String lastName;
+    private String userName;
     private int age;
     
     public User(){    
@@ -42,6 +43,20 @@ public class User {
      */
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    /**
+     * @return the userName
+     */
+    public String getUserName() {
+        return userName;
+    }
+
+    /**
+     * @param userName the userName to set
+     */
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
     /**
