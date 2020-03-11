@@ -11,9 +11,10 @@ public class User {
     public User(){    
     }
     
-    public User(String firstName, String lastName, int age){
+    public User(String firstName, String lastName, String userName, int age){
         this.firstName = firstName;
         this.lastName = lastName;
+        this.userName = userName;
         this.age = age;
     }
     
